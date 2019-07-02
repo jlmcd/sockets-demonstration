@@ -8,7 +8,7 @@ This repository contains examples for basic socket functionality using socket.io
 
 * When you join a room, messages will be sent to everyone who has joined that room's socket.
 
-    * To send a message to only a room, append `to(roomname)` on socket or io, depending on the message type.
+    * To send a message to only a room, append `.to(roomname)` on socket or io, depending on the message type.
 
 * **Emit (socket.emit) -** will send a message to only the user.
 
